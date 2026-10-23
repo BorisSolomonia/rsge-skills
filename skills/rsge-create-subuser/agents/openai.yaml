@@ -1,0 +1,3 @@
+interface:
+  display_name: "rs.ge Sub-user"
+  short_description: "Create an rs.ge sub-user safely"

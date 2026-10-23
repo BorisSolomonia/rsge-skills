@@ -1,0 +1,7 @@
+dist/
+node_modules/
+.env*
+*.secret.*
+# planning notes with personal context: local only
+ISA.md
+STRUCTURE_QUESTIONS.md
