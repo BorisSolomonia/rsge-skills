@@ -26,6 +26,8 @@ The **პაროლი** field shows the password as plain text. So between th
 - **Browser mode**: you have a browser tool (Claude in Chrome, the ChatGPT browser, Codex or Claude Code with a browser). You drive the portal; the user does the two hand-overs.
 - **Guided mode**: no browser tool. You give one step per message and check a screenshot the user sends after each. Read [`references/guided-mode.md`](references/guided-mode.md) before the first step.
 
+With no browser tool, offer the choice: guided mode now, or a one-time browser setup (Chrome plus the Claude in Chrome extension, about five minutes) after which you fill the form yourself. On setup, follow [`references/browser-setup.md`](references/browser-setup.md).
+
 ## Steps
 
 ### 1. Gather the details in chat

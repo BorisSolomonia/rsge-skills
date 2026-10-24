@@ -9,7 +9,7 @@ Fill these into the GPT builder (Configure tab). `bun scripts/build.ts` copies t
   - rs.ge-ზე ქვე-მომხმარებელი შემიქმენი ბუღალტრისთვის
   - ქვე-მომხმარებელი მჭირდება საბუღალტრო პროგრამისთვის
   - Create an rs.ge sub-user for my accountant
-- **Knowledge:** every file in `dist/custom-gpt/knowledge/` (`SKILL.md` and the four reference files).
+- **Knowledge:** every file in `dist/custom-gpt/knowledge/` (`SKILL.md` and the five reference files).
 - **Capabilities:** Web search off. Code interpreter off. Image generation off.
 
 Before publishing, re-check on logged-in OpenAI pages which plans can use a Custom GPT and whether it can use the ChatGPT browser; the plan facts in this repo come from search summaries.

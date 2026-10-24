@@ -14,7 +14,7 @@ AI skills for the Georgian Revenue Service portal, [eservices.rs.ge](https://ese
 
 **როგორ დავაყენო:**
 
-- **Claude.ai** (ნებისმიერი გეგმა): ჩამოტვირთეთ `rsge-create-subuser.zip` (Releases), შემდეგ Customize → Skills → "+" → Create skill → Upload a skill.
+- **Claude.ai** (Pro, Max, Team ან Enterprise; Settings → Features-ში ჩართეთ code execution): ჩამოტვირთეთ `rsge-create-subuser.zip` (Releases), შემდეგ Customize → Skills → "+" → Create skill → Upload a skill.
 - **Claude Code, Codex, Cursor და სხვა აგენტები:** `npx skills add BorisSolomonia/rsge-skills`
 - **ChatGPT:** გამოიყენეთ ჩვენი Custom GPT (ბმული დაემატება). ბრაუზერის გარეშე ის ნაბიჯ-ნაბიჯ გიხელმძღვანელებთ ეკრანის სურათებით.
 
@@ -28,7 +28,7 @@ AI skills for the Georgian Revenue Service portal, [eservices.rs.ge](https://ese
 
 **Install:**
 
-- **Claude.ai** (any plan): download `rsge-create-subuser.zip` from Releases, then Customize → Skills → "+" → Create skill → Upload a skill.
+- **Claude.ai** (Pro, Max, Team or Enterprise, with code execution on in Settings → Features): download `rsge-create-subuser.zip` from Releases, then Customize → Skills → "+" → Create skill → Upload a skill.
 - **Claude Code, Codex, Cursor and other agents:** `npx skills add BorisSolomonia/rsge-skills`
 - **ChatGPT:** use the Custom GPT (link to come). Without a browser tool it guides you step by step and checks your screenshots.
 
@@ -38,6 +38,8 @@ Then say: "create an rs.ge sub-user for my accountant".
 
 - **Browser mode**: the AI has a browser (Claude in Chrome, the ChatGPT browser, Codex or Claude Code with a browser tool). It drives the portal; you log in and type the password when it hands over.
 - **Guided mode**: no browser. The AI gives one step at a time and checks a screenshot after each.
+
+On Claude with no browser yet (a fresh computer), the skill offers a one-time setup: it walks you through installing Chrome and the Claude in Chrome extension, then fills the form itself. No AI can install an extension for you; you click **Add to Chrome**.
 
 ## Building the packages
 
