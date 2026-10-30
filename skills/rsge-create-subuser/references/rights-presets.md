@@ -21,20 +21,20 @@ Right codes (the `value` of each checkbox inside a module block):
 | 12 | დეკლარაციაზე მიბმა (attach to declaration) |
 | 13 | ა/ფ მოთხოვნა (request invoice) |
 
-Without code 9, the sub-user sees only records they created themselves.
+Code 9 widens the other rights to records of the full period. What a sub-user sees without it has not been tested; when software later finds no older waybills or invoices, add code 9 with **ცვლილება**.
 
 ## Presets
 
-### accountant-invoices-waybills
+### invoices-waybills-read (default)
 
-For an accountant or accounting software that reads and prepares invoices and waybills but never deletes, sends, confirms or cancels them.
+For an accountant or accounting software that reads invoices and waybills. Under **მოდულების მართვის უფლება**, in **ძირითადი მოდულები**:
 
-| Module title | Hint id | Codes |
-|---|---|---|
-| ანგარიშ-ფაქტურები | 3 | 0, 1, 9 |
-| ზედნადები | 5 | 0, 1, 9 |
+| Module title | Hint id | Box to tick | Code |
+|---|---|---|---|
+| ზედნადები | 5 | წაკითხვა | 0 |
+| ანგარიშ-ფაქტურები | 3 | წაკითხვა | 0 |
 
-Nothing else ticked.
+Nothing else ticked: no other module, no other box on these two, no declaration type. When the user wants the sub-user to prepare documents too, add შექმნა/რედაქტირება (1) on the same two modules.
 
 ### read-only
 

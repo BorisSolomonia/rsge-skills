@@ -16,7 +16,7 @@ Accounting, ERP or waybill software logs in with `username:<ID number>` and the 
 
 | Code | Meaning | Fix |
 |---|---|---|
-| -100 | Service-user credentials are invalid, or the sub-user is disabled | Check the username and password in rs.ge, tick **აქტიური მომხმარებელი** again if it was turned off, reconnect |
+| -100 or `false` | Credentials refused, or the sub-user is disabled. The most common cause is a bare name: rs.ge wants the full `word:<ID>`, as the sub-user list shows it | Copy the full login from `RSGE_USERNAME` (or the list) into the software, check the password, tick **აქტიური მომხმარებელი** again if it was turned off, reconnect |
 | -101 | Payer ID mismatch: the sub-user belongs to a different rs.ge account | Confirm which taxpayer account the software is connected to |
 | -102 | Malformed request payload, most likely a bug in the software | Report it to the software's vendor with the operation name |
 | permission error | The sub-user lacks a right the operation needs | Open the sub-user with **ცვლილება** in rs.ge and tick the missing right |
